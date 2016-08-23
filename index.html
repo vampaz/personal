@@ -27,13 +27,13 @@
     <link rel="shortcut icon" href="favicon.ico">
 
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic">
-    <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
+    <!--<link rel="stylesheet" href="node_modules/normalize.css/normalize.css">-->
     <link rel="stylesheet" href="css/style.css">
 
     <!--<script src="js/script.js"></script>-->
 
 </head>
-<body class="bb" >
+<body class="bb">
 <div class="container hResume bb in">
     <header class="vcard bb">
         <h1 class="fn">
@@ -84,20 +84,20 @@
                 <li class="skill">Code HTML with solid understanding of HTML & HTML5 related APIs</li>
                 <li class="skill">Best practices in w3c standards and semantics</li>
                 <li class="skill">Code CSS like a surgeon, implement complex oocss methodologies and kill cross-browser
-                    quirks
+                                  quirks
                 </li>
                 <li class="skill">Use SASS, LESS or whatever people invent to go around the lack of common understanding
-                    and innovation from browser vendors
+                                  and innovation from browser vendors
                 </li>
                 <li class="skill">Write solid plain javascript(ECMAScript), the DOM or/and in the context of jQuery,
-                    ext.'s, senchaTouch, dojo and others. Currently going deep on AngularJs
+                                  ext.'s, senchaTouch, dojo and others. Currently going deep on AngularJs
                 </li>
-                <li class="skill">Implementation of WAI-ARIA & UI </li>
+                <li class="skill">Implementation of WAI-ARIA & UI</li>
                 <li class="skill">Use Git, svn or others to share code with the team in the most agile way</li>
                 <li class="skill">Deploy mobile apps using phoneGap for iOS, android and blackberry</li>
                 <li class="skill">Extreme ModX knowledge, experienced in WordPress and ExpressionEngine</li>
                 <li class="skill">Familiar with backEnd technologies and programming languages(php, ruby, .net framework
-                    etc. )
+                                  etc. )
                 </li>
             </ul>
         </section>
@@ -117,7 +117,28 @@
         <section class="experience">
             <h4>Relevant Work experience</h4>
             <ul>
-                <li><span class="period">May 2012 ≫ Present </span> - <strong>Backbase NL</strong>
+                <li><span class="period">March 2016 ≫ Present </span> - <strong>EvBox</strong>
+                    <ul class="scolon">
+                        <li class="title"><strong>Front End Senior Web UI Developer</strong></li>
+                        <li>Design and build the next generation of EV charging management UI</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li><span class="period">August 2015 ≫ March 2016</span> - <strong>Backbase NL</strong>
+                    <ul class="scolon">
+                        <li class="title"><strong>Front End Principal Web Developer</strong></li>
+                        <li>Layout FE best practices for the department</li>
+                        <li>Technical lead ( FE wise) on integrating AngularJs and others with Backbase portal, mostly
+                            on transactional interfaces for banking, finance and insurance industries
+                        </li>
+                        <li>Updating senior colleagues and clients on Backbase technologies and general FE integration</li>
+                        <li>Mobile stakeholder for the department</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li><span class="period">May 2012 ≫ August 2015</span> - <strong>Backbase NL</strong>
                     <ul class="scolon">
                         <li class="title"><strong>Front End Senior Web Developer</strong></li>
                         <li>Layout FE best practices for the company and specific projects</li>
@@ -126,7 +147,7 @@
                         </li>
                         <li>Training new colleagues and clients on Backbase technologies and general FE integration</li>
                         <li>Prototyping Homebanking Web interfaces for desktop and mobile</li>
-                        <li>Help the formers to become POC's or real products, deliver and integrate with the final customer
+                        <li>Help the formers to become POC's or real products, deliver and integrate with the final customer</li>
                     </ul>
                 </li>
             </ul>
@@ -174,7 +195,7 @@
                     Phonegap(have to update this one for ios7 look and remove this old Sencha dependence)
                 </li>
                 <li><a href="http://itunes.apple.com/ye/app/mares/id478335297?mt=8" title="View Marés in the appStore">Published
-                    in the appStore</a> and selling
+                                                                                                                       in the appStore</a> and selling
                 </li>
             </ul>
         </section>
@@ -208,18 +229,22 @@
 
 <!-- Piwik -->
 <script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//conekto.pt/piwik/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 3]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
+    var _paq = _paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+        var u = "//conekto.pt/piwik/";
+        _paq.push(['setTrackerUrl', u + 'piwik.php']);
+        _paq.push(['setSiteId', 3]);
+        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+        g.type = 'text/javascript';
+        g.async = true;
+        g.defer = true;
+        g.src = u + 'piwik.js';
+        s.parentNode.insertBefore(g, s);
+    })();
 </script>
-<noscript><p><img src="//conekto.pt/piwik/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>
+<noscript><p><img src="//conekto.pt/piwik/piwik.php?idsite=3" style="border:0;" alt=""/></p></noscript>
 <!-- End Piwik Code -->
 </body>
 </html>
