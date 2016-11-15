@@ -1,0 +1,24 @@
+{
+    "name": "personal",
+    "version": "1.0.0",
+    "description": "Carlos Rodrigues CV",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vampaz/personal.git"
+    },
+    "keywords": [
+        "cv",
+        "work",
+        "resume"
+    ],
+    "author": "Carlos Rodrigues",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vampaz/personal/issues"
+    },
+    "homepage": "https://github.com/vampaz/personal#readme"
+}
