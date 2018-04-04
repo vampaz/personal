@@ -131,11 +131,6 @@ br {
 .sub-head {
     color: #999999;
     position: relative;
-    margin: 0;
-    top: -2.5em;
-    width: 50%;
-    display: inline-block;
-    font-size: 0;
 }
 
 .sub-head.role {
@@ -144,8 +139,6 @@ br {
 
 .sub-head.adr {
     font-size: .7em;
-    top: 0em;
-    text-align: right;
 }
 
 .logo {
@@ -180,7 +173,7 @@ br {
 }
 
 .links {
-    padding: 1em 0 0 0;
+    padding: 0;
     margin: 0;
     text-align: left;
 }
